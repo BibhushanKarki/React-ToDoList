@@ -54,6 +54,7 @@ class App extends React.Component {
       if(item.key===key){
         item.text=text;
       }
+      return console.log(item.key +"    "+key)
     })
     this.setState({
       items:items
