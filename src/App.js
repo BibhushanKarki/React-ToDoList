@@ -12,7 +12,7 @@ class App extends React.Component {
         items: [],
         currentItem:{
           text:'',
-          key:''
+          key:'',
       }
     }
     this.handleInput=this.handleInput.bind(this)
